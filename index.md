@@ -6,7 +6,12 @@
 
 
 
-### 1. Research Direction
+### 1. Research Areas
+
+* Information extraction
+* Large-scale models
+* Knowledge graphs
+* Data mining
 
 ### 2. Published Papers
 
@@ -33,7 +38,7 @@
 * Multi-Modal Siamese Network for Few-Shot Knowledge Graph Completion.(ICDE)(**CCF A**)
 * A Coarse-to-Fine Framework for Entity-Relation Joint Extraction.(ICDE)(**CCF A**)
 
-##### 2023
+#### 2023
 * ASNN-FRR: A traffic-aware neural network for fastest route recommendation.(GeoInformatica)(**CCF B**)
 * Online meta-learning for POI recommendation.(GeoInformatica)(**CCF B**)
 * A Noise-Aware Method With Type Constraint Pattern for Neural Relation Extraction.(IEEE)(**CCF A**)
@@ -46,7 +51,7 @@
 * MMKGR: Multi-hop Multi-modal Knowledge Graph Reasoning.(ICDE)(**CCF A**)
 * Frequency Enhanced Hybrid Attention Network for Sequential Recommendation.(SIGIR)(**CCF A**)
 * Long-Document Cross-Lingual Summarization.(WSDM)(**CCF B**)
-
+#### Earlier articles can be found at the dblp link https://dblp.org/pid/129/9411.html.
 
 
 ### 3. Grants
