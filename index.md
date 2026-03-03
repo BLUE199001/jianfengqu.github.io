@@ -13,70 +13,61 @@
 * Knowledge graphs
 * Data mining
 
-### 2. Published Papers
+### 2. Publications
+* Expert Heads: Robust Evidence Identification for Large Language Models.(ICLR 2026)(**CCF A**)
+* Balancing Positive and Negative Classification Error Rates in Positive-Unlabeled Learning.(NeurIPS 2025)(**CCF A**)
+* TMLKD: Few-shot Trajectory Metric Learning via Knowledge Distillation.(VLDB 2025)(**CCF A**)
+* Enhancing Long-and Short-Term Representations for Next POI Recommendations via Frequency and Hierarchical Contrastive Learning.(AAAI 2025 oral)(**CCF A**)
+* Remember Past, Anticipate Future: Learning Continual Multimodal Misinformation Detectors.(ACM MM 2025)(**CCF A**)
+* Evidence Reasoning and Curriculum Learning for Document-Level Relation Extraction.(IEEE 2024)(**CCF A**)
+* Improving the Robustness of Knowledge-Grounded Dialogue via Contrastive Learning.(AAAI 2024)(**CCF A**)
+* Meta-optimized Structural and Semantic Contrastive Learning for Graph Collaborative Filtering.(ICDE 2024)(**CCF A**)
+* Meta-Optimized Joint Generative and Contrastive Learning for Sequential Recommendation.(ICDE 2024)(**CCF A**)
+* Multi-Modal Siamese Network for Few-Shot Knowledge Graph Completion.(ICDE 2024)(**CCF A**)
+* A Coarse-to-Fine Framework for Entity-Relation Joint Extraction.(ICDE 2024)(**CCF A**)
+* Dual-Supervised Contrastive Learning for Bundle Recommendation(IEEE 2024)(**CCF A**)
+* MusTQ: A Temporal Knowledge Graph Question Answering Dataset for Multi-Step Temporal Reasoning.(ACL 2024)(**CCF A**)
+* GeoAgent: To Empower LLMs using Geospatial Tools for Address Standardization.(ACL 2024)(**CCF A**)
+* A Noise-Aware Method With Type Constraint Pattern for Neural Relation Extraction.(IEEE 2023)(**CCF A**)
+* Competition or Cooperation? Exploring Unlabeled Data via Challenging Minimax Game for Semi-supervised Relation Extraction.(AAAI 2023)(**CCF A**)
+* Towards Unifying Multi-Lingual and Cross-Lingual Summarization.(ACL 2023)(**CCF A**)
+* MMKGR: Multi-hop Multi-modal Knowledge Graph Reasoning.(ICDE 2023)(**CCF A**)
+* Frequency Enhanced Hybrid Attention Network for Sequential Recommendation.(SIGIR 2023)(**CCF A**)
+* Ensemble Semi-supervised Entity Alignment via Cycle-Teaching.(AAAI 2022)(**CCF A**)
+* Improved sparse representation based on local preserving projection for the fault diagnosis of multivariable system.(SCIS 2021)(**CCF A**)
+* The input pattern problem on deep learning applied to signal analysis and processing to achieve fault diagnosis.(SCIS 2019)(**CCF A**)
 
-#### 2025 
-
-* Concept-aware embedding for logical query reasoning over knowledge graphs.(IPM)(**CCF B**) 
-* TMLKD: Few-shot Trajectory Metric Learning via Knowledge Distillation.(VLDB)(**CCF A**)
-* Enhancing Long-and Short-Term Representations for Next POI Recommendations via Frequency and Hierarchical Contrastive Learning.(AAAI)(**CCF A**)
-* MRCLQR: A Framework for Logical Query Reasoning Based on Multi-information Relation Constraints.(CIKM)(**CCF B**)
-* Remember Past, Anticipate Future: Learning Continual Multimodal Misinformation Detectors.(ACM MM)(**CCF A**)
-
-#### 2024 
-
-* Transfer-learning-based representation learning for trajectory similarity search.(GeoInformatica)(**CCF B**)
-* Towards Effective Author Name Disambiguation by Hybrid Attention.(JCST)(**CCF B**)
-* Evidence Reasoning and Curriculum Learning for Document-Level Relation Extraction.(IEEE)(**CCF A**)
-* PopGR: Popularity reweighting for debiasing in group recommendation.(World wide web)(**CCF B**)
-* Improving the Robustness of Knowledge-Grounded Dialogue via Contrastive Learning.(AAAI)(**CCF A**)
-* CLR2G: Cross modal Contrastive Learning on Radiology Report Generation.(CIKM)(**CCF B**)
-* Contrasting Transformer and Hypergraph Network for Cooperative Sequential Recommendation.(DASFAA)(**CCF B**)
-* Efficient and Secure Skyline Query Over Horizontal Data Federation.(DASFAA)(**CCF B**)
-* Beyond SweepLine: Efficient MaxRS Queries over Inaccurate Location Data.(DASFAA)(**CCF B**)
-* A Hierarchy-aware Entity Alignment Method for Educational Knowledge Graphs.(DASFAA)(**CCF B**)
-* Meta-optimized Structural and Semantic Contrastive Learning for Graph Collaborative Filtering.(ICDE)(**CCF A**)
-* Meta-Optimized Joint Generative and Contrastive Learning for Sequential Recommendation.(ICDE)(**CCF A**)
-* Multi-Modal Siamese Network for Few-Shot Knowledge Graph Completion.(ICDE)(**CCF A**)
-* A Coarse-to-Fine Framework for Entity-Relation Joint Extraction.(ICDE)(**CCF A**)
-
-#### 2023
-
-* ASNN-FRR: A traffic-aware neural network for fastest route recommendation.(GeoInformatica)(**CCF B**)
-* Online meta-learning for POI recommendation.(GeoInformatica)(**CCF B**)
-* A Noise-Aware Method With Type Constraint Pattern for Neural Relation Extraction.(IEEE)(**CCF A**)
-* Auto-regressive extractive summarization with replacement.(World Wide Web)(**CCF B**)
-* Hybrid Enhancement-based prototypical networks for few-shot relation classification. (World Wide Web)(**CCF B**)
-* Competition or Cooperation? Exploring Unlabeled Data via Challenging Minimax Game for Semi-supervised Relation Extraction.(AAAI)(**CCF A**)
-* Towards Unifying Multi-Lingual and Cross-Lingual Summarization.(ACL)(**CCF A**)
-* A Joint Link-Retrieve Framework for Open Table-and-Text Question Answering.(DASFAA)(**CCF B**)
-* Region-Aware Graph Convolutional Network for Traffic Flow Forecasting.(DASFAA)(**CCF B**)
-* MMKGR: Multi-hop Multi-modal Knowledge Graph Reasoning.(ICDE)(**CCF A**)
-* Frequency Enhanced Hybrid Attention Network for Sequential Recommendation.(SIGIR)(**CCF A**)
-* Long-Document Cross-Lingual Summarization.(WSDM)(**CCF B**)
-
-#### Earlier articles can be found at the dblp link https://dblp.org/pid/129/9411.html.
+* MRCLQR: A Framework for Logical Query Reasoning Based on Multi-information Relation Constraints.(CIKM 2025)(**CCF B**)
+* Concept-aware embedding for logical query reasoning over knowledge graphs.(IPM 2025)(**CCF B**) 
+* MRCLQR: A Framework for Logical Query Reasoning Based on Multi-information Relation Constraints.(CIKM 2025)(**CCF B**)
+* Transfer-learning-based representation learning for trajectory similarity search.(GeoInformatica 2024)(**CCF B**)
+* Towards Effective Author Name Disambiguation by Hybrid Attention.(JCST 2024)(**CCF B**)
+* PopGR: Popularity reweighting for debiasing in group recommendation.(World wide web 2024)(**CCF B**)
+* CLR2G: Cross modal Contrastive Learning on Radiology Report Generation.(CIKM 2024)(**CCF B**)
+* Contrasting Transformer and Hypergraph Network for Cooperative Sequential Recommendation.(DASFAA 2024)(**CCF B**)
+* Efficient and Secure Skyline Query Over Horizontal Data Federation.(DASFAA 2024)(**CCF B**)
+* Beyond SweepLine: Efficient MaxRS Queries over Inaccurate Location Data.(DASFAA 2024)(**CCF B**)
+* A Hierarchy-aware Entity Alignment Method for Educational Knowledge Graphs.(DASFAA 2024)(**CCF B**)
+* ASNN-FRR: A traffic-aware neural network for fastest route recommendation.(GeoInformatica 2023)(**CCF B**)
+* Online meta-learning for POI recommendation.(GeoInformatica 2023)(**CCF B**)
+* Auto-regressive extractive summarization with replacement.(World Wide Web 2023)(**CCF B**)
+* Hybrid Enhancement-based prototypical networks for few-shot relation classification. (World Wide Web 2023)(**CCF B**)
+* A Joint Link-Retrieve Framework for Open Table-and-Text Question Answering.(DASFAA 2023)(**CCF B**)
+* Region-Aware Graph Convolutional Network for Traffic Flow Forecasting.(DASFAA 2023)(**CCF B**)
+* Long-Document Cross-Lingual Summarization.(WSDM 2023)(**CCF B**)
+* Knowledge Enhanced Sports Game Summarization.(WSDM 2022)(**CCF B**)
+* RT-KGD: Relation Transition Aware Knowledge-Grounded Dialogue Generation.(ISWC 2022)(**CCF B**)
+* ClidSum: A Benchmark Dataset for Cross-Lingual Dialogue Summarization.(EMNLP 2022)(**CCF B**)
+* Aligning Internal Regularity and External Influence of Multi-granularity for Temporal Knowledge Graph Embedding.(DASFAA 2022)(**CCF B**)
+* TRHyTE: Temporal Knowledge Graph Embedding Based on Temporal-Relational Hyperplanes.(DASFAA 2022)(**CCF B**)
+* Incorporating Commonsense Knowledge into Story Ending Generation via Heterogeneous Graph Networks.(DASFAA 2022)(**CCF B**)
+* Evidence-aware Document-level Relation Extraction.(CIKM 2022)(**CCF B**)
+* Large-scale Entity Alignment via Knowledge Graph Merging, Partitioning and Embedding.(CIKM 2022)(**CCF B**)
+* An efficient and effective approach for multi-fact extraction from text corpus.(World Wide Web 2022)(**CCF B**)
+* A Survey on Cross-Lingual Summarization.(TACL 2022)(**CCF B**)
 
 
-### 3. Grants
-* 主持国自然面上、国自然青年等国家及省部级项目5项，参与国家级项目3项。(He has presided over 5 national and provincial-level projects, including National Natural Science Foundation of China (NSFC) general and youth projects, and participated in 3 national-level projects.)
 
-### 4. Experiences
-* 2009.09-2013.06 吉林大学，软件工程，工学学士；
-* 2013.09-2016.06 吉林大学，计算机软件与理论，工学硕士；
-* 2016.09-2019.06 吉林大学，计算机软件与理论，工学博士；
-* 2017.10-2019.05 澳大利亚 昆士兰大学，联合培养博士；
-* 2019.11-2020.11 澳大利亚 昆士兰大学，博士后研究员；
-* 2020.12-2025.10 苏州大学 计算机学院 副教授；
-* 2025.11- 中国人民大学 智慧治理学院 副教授
-
-### 5.Admissions Direction
-* 学术学位硕士生：智慧治理(Academic Master's Students: Smart Governance)
-* 专业学位硕士生：电子信息、人工智能与智慧治理(Professional Master's Degree Students: Electronic Information, Artificial Intelligence and Smart Governance)
-
-### 6.Part-time Jobs
-* 中文信息学会青工委委员(Member of the Youth Committee of the Chinese Information Processing Society)
-* CCF信息系统专委会委员(Member of the CCF Information Systems Committee)
 
 
 
