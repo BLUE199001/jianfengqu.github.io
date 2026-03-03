@@ -1,119 +1,64 @@
 ### About Me
 
-Dr. Juntao Li is now an associate professor at [School of Computer Science & Technology, Soochow University](http://scst.suda.edu.cn/), working with Prof. [Min Zhang](https://scholar.google.com/citations?user=CncXH-YAAAAJ&hl=zh-CN). Before that, he obtained a doctoral degree from Peking University in 2020, supervised by [Dr. Rui Yan](https://scholar.google.com.hk/citations?user=eLw6g-UAAAAJ&hl=zh-CN), Prof. [Dongyan Zhao](https://scholar.google.com/citations?user=lhR8-68AAAAJ&hl=zh-CN), and Prof. Dongmin Chen. 
+瞿剑峰，男，副教授，硕士生导师，江苏省“双创博士”，苏州大学优秀青年学者。本硕博毕业于吉林大学，2017年至2019年澳大利亚昆士兰大学（U.S News 世界大学排名Top50）联合培养博士研究生，2019年至2020年在昆士兰大学从事博士后研究。目前研究方向为信息抽取、知识图谱、大模型、数据挖掘。在ACL, ICDE, TKDE, AAAI等高水平期刊会议上(CCF A/B类)发表60余篇。指导硕士生在国际顶级数据挖掘会议CIKM’22上获得Best Paper Honorable Mention（0.5%），担任各类CCF A顶级会议期刊（如ICML, ICLR, TOIS等）审稿人。
 
-
-
-**I am leading a research group on language models. We are dedicated to building application-oriented, open-source, large-size language models with transparency, reusability, and low-cost deployment. More details can be found at [OpenNLG](https://opennlg.cn/).**
 
 
 ### 1. Contact
-ljt@suda.edu.cn
+jfqu@ruc.edu.cn
 
 ### 2. Research Interests and Selected Papers
-(<sup>'*'</sup> = equal contribution, <sup>'#'</sup> = corresponding author )
 
-#### 2.1 Pretrained Language Models 
-* (**OpenBA: An Open-sourced 15B Bilingual Asymmetric seq2seq Model Pre-trained from Scratch**)[[paper]](https://arxiv.org/pdf/2309.10706.pdf)[[Model & Code]](https://github.com/OpenNLG/openBA), SCIS, **CCF-A**
-* [**COLM-2024**]Timo: Towards Better Temporal Reasoning for Language Models
-* [**ACL-24**] Feature-based Low-Rank Compression of Large Language Models via Bayesian Optimization.
-* [**ACL-24**] Exploring Reversal Mathematical Reasoning Ability for Large Language Models.
-* [**ACL-24**] Living in the Moment: Can Large Language Models Grasp Co-Temporal Reasoning?.
-* [**ACL-24**] CMD: a framework for Context-aware Model self-Detoxification.
-* [**ACL-24**] Demonstration Augmentation for Zero-shot In-context Learning.
-* [**ACL-24**] Rethinking Negative Instances for Generative Named Entity Recognition.
-* [**ICML-24**] Zecheng Tang, Chenfei Wu, Zekai Zhang, Mingheng Ni, Shengming Yin, Yu Liu, Zhengyuan Yang, Lijuan Wang, Zicheng Liu, Juntao Li, Nan Duan. StrokeNUWA: Tokenizing Strokes for Vector Graphic Synthesis.
-* [**ICLR-24**] Yisheng Xiao, **Juntao Li<sup>#</sup>**, Zechen Sun, Zechang Li, Qingrong Xia, Xinyu Duan, Zhefeng Wang, Min Zhang. Are Bert Family Good Instruction Followers? A Study on Their Potential And Limitations. 
-* [**ICLR-24**] Zecheng Tang, Chenfei Wu, Juntao Li, Nan Duan. LayoutNUWA: Revealing the Hidden Layout Expertise of Large Language Models.
-* [**EMNLP-23**] Yi Su, Yixin Ji, **Juntao Li<sup>#</sup>**, Hai Ye, Min Zhang. Beware of Model Collapse! Fast and Stable Test-time Adaptation for Robust Question Answering. **EMNLP 2023**. [[pdf]]()(**CCF B**)
-* [**EMNLP-23**] Chuyue Zhou, WangJie You, **Juntao Li<sup>#</sup>**, Jing Ye, Kehai Chen, Min Zhang. INFORM : Information eNtropy based multi-step reasoning FOR large language Models. **EMNLP 2023**. [[pdf]]()(**CCF B**)
-* [**EMNLP-23**] Yixin Ji, Jikai Wang, **Juntao Li<sup>#</sup>**, Hai Ye, Min Zhang. Isotropic Representation Can Improve Zero-Shot Cross-Lingual Transfer on Multilingual Language Models. **EMNLP 2023 Findings**. [[pdf]]()
-* [**EMNLP-23**] Zhaochen Su, **Juntao Li<sup>#</sup>**, Zikang Zhang, Zihan Zhou, Min Zhang . Efficient Continue Training of Temporal Language Model with Structural Information. **EMNLP 2023 Findings**. [[pdf]]()
-* [**EMNLP-23**] Haoke Zhang, Yue Wang, **Juntao Li<sup>#</sup>**, Xiabing Zhou, Min Zhang. G-SPEED: General SParse Efficient Editing MoDel. **EMNLP 2023 Findings**. [[pdf]]()
-* [**EMNLP-23**] Pei Guo, yisheng xiao, **Juntao Li<sup>#</sup>**, Yixin Ji, Min Zhang. Isotropy-Enhanced Conditional Masked Language Models. **EMNLP 2023 Findings**. [[pdf]]()
-* [**EMNLP-23**] Lei Geng, Xu Yan, Ziqiang Cao, Juntao Li, Wenjie Li, Sujian Li, Xinjie Zhou, Yang Yang, Jun Zhang. KBioXLM: A Knowledge-anchored Biomedical Multilingual Pretrained Language Model. **EMNLP 2023 Findings**. [[pdf]]()
-* [**AI J**] Yue Wang, Lijun Wu, **Juntao Li<sup>#</sup>**, Xiaobo Liang, Min Zhang. Are BERT Families Zero-Shot Learners? A Study on Their Potential and Limitations. **Artificial Intelligence**. [[pdf]](https://www.sciencedirect.com/science/article/pii/S0004370223000991)[[code]](https://github.com/wangyuenlp/bert_%20family_zero_shot)(**CCF A**)
-* [**ACL-23**] Yixin Ji, Jikai Wang, **Juntao Li<sup>#</sup>**, Qiang Chen, Wenliang Chen and Min Zhang. Early Exit with Disentangled Representation and Equiangular Tight Frame. [[pdf]](https://aclanthology.org/2023.findings-acl.889.pdf)[[code]](https://github.com/Jikai0Wang/DREE) **ACL 2023 Findings** 
-* [**EMNLP-22**] Zhaochen Su<sup>\*</sup>, Zecheng Tang<sup>*</sup>, Xinyan Guan, **Juntao Li<sup>#</sup>**, Lijun Wu, Min Zhang. Improving Temporal Generalization of Pre-trained Language Models with Lexical Semantic Change. [[pdf]](https://arxiv.org/pdf/2210.17127.pdf)[[code]](https://github.com/zhaochen0110/LMLM) In **EMNLP'22**. (**CCF B**) 
-* [**COLING-22**] Dan Qiao, Chenchen Dai, Yuyang Ding, **Juntao Li<sup>#</sup>**, Qiang Chen, Wenliang Chen and Min Zhang. SelfMix: Robust Learning Against Textual Label Noise with Self-Mixup Training. In **COLING'22**. (**Oral**) [[pdf]](https://arxiv.org/pdf/2210.04525.pdf)[[code]](https://github.com/noise-learning/SelfMix) (**CCF B**) 
-* [**EMNLP-20**] Hai Ye, Qingyu Tan, Ruidan He, **Juntao Li**, Hwee Tou Ng, Lidong Bing.  Feature Adaptation of Pre-Trained Language Models across Languages and Domains with Robust Self-Training. In **EMNLP'20**. Full paper. [[pdf]](https://aclanthology.org/2020.emnlp-main.599.pdf)[[code]]((https://github.com/oceanypt/CFd)) (**CCF B**) 
-* [**IJCAI-20**] **Juntao Li**, Ruidan He, Hai Ye, Hwee Tou Ng, Lidong Bing, and Rui Yan. Unsupervised Domain Adaptation of a Pretrained Cross-Lingual Language Model. In **IJCAI-PRICAI'20**. Full paper. [[pdf]](./IJCAI__PRICAI__2020.pdf) [[code]](https://github.com/lijuntaopku/UFD)(**CCF A**)
-  
-#### 2.2 Natural Language Generation
-* [**ACL-24**] Efficient Domain Adaptation for Non-Autoregressive Machine Translation.
-* [**TPAMI**] **Juntao Li**, Xiaobo Liang, Lijun Wu, Yue Wang, Qi Meng, Tao Qin, Tie-yan Liu, Min Zhang. Randomness Regularization with Simple Consistency Training for Neural Networks. **TPAMI, 2024**
-* [**TPAMI**] Yisheng Xiao, Lijun Wu, Junliang Guo, **Juntao Li<sup>#</sup>**, Min Zhang, Tao Qin, Tie-yan Liu. A Survey on Non-Autoregressive Generation for Neural Machine Translation and Beyond. **TPAMI, 2023**. [[pdf]](https://arxiv.org/pdf/2204.09269.pdf) (**CCF A**)
-* [**WSDM-24**] Yue Wang, Zilong Zheng, Zecheng Tang, **Juntao Li<sup>#</sup>**, Zhihui Liu, Kunlong Chen, Jinxiong Chang, Qishen Zhang, Zhongyi Liu, Min Zhang. Towards Better Chinese Spelling Check for Search Engines: A New Dataset and Strong Baseline. **WSDM 2024**. [[pdf]]()(**CCF B**)
-* [**NeurIPS-23**] Tong Wu, Zhihao Fan, Xiao Liu, Yeyun Gong, Yelong Shen, Jian Jiao, Hai-Tao Zheng, Juntao Li, Zhongyu Wei, Jian Guo, Nan Duan, Weizhu Chen. AR-Diffusion: Auto-Regressive Diffusion Model for Text Generation. **WSDM 2024**. [[pdf]]()(**CCF A**)
-* [**ACL-23**] Xiaobo Liang, Zecheng Tang, **Juntao Li<sup>#</sup>**, Min Zhang. Open-ended Long Text Generation via Masked Language Modeling. [[pdf]](https://aclanthology.org/2023.acl-long.13.pdf)[[code]](https://github.com/dropreg/OpenLTG-MLM) **ACL 2023** (**CCF A**) 
-* [**ACL-23**] Xiaobo Liang, **Juntao Li<sup>#</sup>**, Lijun Wu, Ziqiang Cao and Min Zhang. Dynamic and Efficient Inference for Text Generation via BERT Family. [[pdf]](https://aclanthology.org/2023.acl-long.162.pdf)[[code]](https://github.com/dropreg/DEER) **ACL 2023** (**CCF A**) 
-* [**ACL-23**] Yue Wang, Dan Qiao, **Juntao Li<sup>#</sup>**, Jinxiong Chang, Qishen Zhang, Zhongyi Liu, Guannan Zhang and Min Zhang. Towards Better Hierarchical Text Classification with Data Generation. [[pdf]](https://aclanthology.org/2023.findings-acl.489.pdf)[[code]](https://github.com/wangyuenlp/Data-Generation-for-HTC) **ACL 2023 Findings** 
-* [**ACL-23**] Zecheng Tang, Pinzheng Wang, Keyan Zhou, **Juntao Li<sup>#</sup>**, Ziqiang Cao and Min Zhang. Can Diffusion Model Achieve Better Performance in Text Generation ? Bridging the Gap between Training and Inference! [[pdf]](https://arxiv.org/pdf/2305.04465.pdf)[[code]](https://github.com/CODINNLG/Bridge_Gap_Diffusion) **ACL 2023 Findings** 
-* [**AAAI-23**] Pei Guo, Yisheng Xiao, **Juntao Li<sup>#</sup>**, Lijun Wu, Min Zhang. RenewNAT: Renewing Potential Translation for
-Non-Autoregressive Transformer. [[pdf]](https://arxiv.org/pdf/2303.07665.pdf)[[code]](https://github.com/AllForward/RenewNAT) In **AAAI'23** (**CCF A**)  
-* [**AAAI-23**] Yisheng Xiao, Lijun Wu, Ruiyang Xu, **Juntao Li<sup>#</sup>**, Tao Qin, Tie-yan Liu, Min Zhang. AMOM: Adaptive Masking over Masking for Conditional Masked Language Model. [[pdf]](https://ojs.aaai.org/index.php/AAAI/article/download/26615/26387)[[code]](https://github.com/amom-nar/AMOM) In **AAAI'23** (**CCF A**) 
-* [**NeurIPS-21**] Xiaobo Liang, Lijun Wu, **Juntao Li<sup>#</sup>**, Yue Wang, Qi Meng, Wei Chen, Tao Qin, Min Zhang, Tie-yan Liu.  R-Drop: Regularized Dropout for Neural Networks.In **NeurIPS'21**. Full paper. [[pdf]](https://arxiv.org/abs/2106.14448)[[code]](https://github.com/dropreg/R-Drop) (**CCF A**)    
-* [**AAAI-21**] Meng-Hsuan Yu, **Juntao Li<sup>*</sup>**, Zhangming Chan, Dongyan Zhao and Rui Yan. Content Learning with Structure-Aware Writing: A Graph-Infused Dual Conditional Variational Autoencoder for Automatic Storytelling. In **AAAI'21**. Full paper. [[pdf]](https://ojs.aaai.org/index.php/AAAI/article/download/16751/16558) (**CCF A**)
-* [**AAAI-20**] **Juntao Li**, Chang Liu, Jian Wang, Lidong Bing, Hongsong Li, Xiaozhong Liu, Dongyan Zhao and Rui Yan. Cross-Lingual Low-Resource Set-to-Description Retrieval for Global E-Commerce. In **AAAI'20**. Full paper. [[pdf]](./AAAI20.pdf) (**CCF A**)
-* [**AAAI-20**] Meng-Hsuan Yu, **Juntao Li<sup>*</sup>**, Danyang Liu, Bo Tang, Haisong Zhang, Dongyan Zhao and Rui Yan. Draft and Edit: Automatic Storytelling Through Multi-Pass Hierarchical Conditional Variational Autoencoder. In **AAAI'20**. Full paper. [[pdf]](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-YuM.8133.pdf) (**CCF A**)
-* [**AAAI-20**] Danyang Liu, **Juntao Li<sup>*</sup>**, Meng-Hsuan Yu, Ziming Huang, Gongshen Liu, Dongyan Zhao and Rui Yan. A Character-Centric Neural Model for Automated Story Generation. In **AAAI'20**. Full paper. [[pdf]](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-LiuD.%206731.pdf) (**CCF A**)
-* [**AAAI-19**] **Juntao Li**, Lidong Bing, Lisong Qiu, Dongmin Chen, Dongyan Zhao and Rui Yan. Learning to Write Creative Stories with Thematic Consistency. In **AAAI'19**. Full paper. [[pdf]](https://www.aaai.org/ojs/index.php/AAAI/article/view/3993) (**CCF A**)
-* [**EMNLP-18**] **Juntao Li**, Yan Song, Haisong Zhang, Dongmin Chen, Shuming Shi, Dongyan Zhao, and Rui Yan. Generating Classical Chinese Poems via Conditional Variational Autoencoder and Adversarial Training. In **EMNLP'18**. Full paper. [[pdf]](https://www.aclweb.org/anthology/D18-1423.pdf) (**CCF B**)
+#### 2025 
 
+*Concept-aware embedding for logical query reasoning over knowledge graphs.(IPM)(**CCF B**) 
+*TMLKD: Few-shot Trajectory Metric Learning via Knowledge Distillation.(VLDB)(**CCF A)
+*Enhancing Long-and Short-Term Representations for Next POI Recommendations via Frequency and Hierarchical Contrastive Learning.(AAAI)(**CCF A**)
+*MRCLQR: A Framework for Logical Query Reasoning Based on Multi-information Relation Constraints.(CIKM)(**CCF B**)
+*Remember Past, Anticipate Future: Learning Continual Multimodal Misinformation Detectors.(ACM MM)(**CCF A**)
+#### 2024
+* Transfer-learning-based representation learning for trajectory similarity search.(GeoInformatica)(**CCF B**)
+*Towards Effective Author Name Disambiguation by Hybrid Attention.(JCST)(**CCF B**)
+*Evidence Reasoning and Curriculum Learning for Document-Level Relation Extraction.(IEEE)(**CCF A**)
+*PopGR: Popularity reweighting for debiasing in group recommendation.(World wide web)(**CCF B**)
+*Improving the Robustness of Knowledge-Grounded Dialogue via Contrastive Learning.(AAAI)(**CCF A**)
+*CLR2G: Cross modal Contrastive Learning on Radiology Report Generation.(CIKM)(**CCF B**)
+*Contrasting Transformer and Hypergraph Network for Cooperative Sequential Recommendation.(DASFAA)(**CCF B**)
+*Efficient and Secure Skyline Query Over Horizontal Data Federation.(DASFAA)(**CCF B**)
+*Beyond SweepLine: Efficient MaxRS Queries over Inaccurate Location Data.(DASFAA)(**CCF B**)
+*A Hierarchy-aware Entity Alignment Method for Educational Knowledge Graphs.(DASFAA)(**CCF B**)
+*Meta-optimized Structural and Semantic Contrastive Learning for Graph Collaborative Filtering.(ICDE)(**CCF A**)
+*Meta-Optimized Joint Generative and Contrastive Learning for Sequential Recommendation.(ICDE)(**CCF A**)
+*Multi-Modal Siamese Network for Few-Shot Knowledge Graph Completion.(ICDE)(**CCF A**)
+*A Coarse-to-Fine Framework for Entity-Relation Joint Extraction.(ICDE)(**CCF A**)
 
-#### 2.3 Dialogue Systems
-* [**FnTIR**] Rui Yan, **Juntao Li<sup>#</sup>**, Zhou Yu. Deep Learning for Dialogue System: Chit-Chat and Beyond. **Foundations and Trends® in Information Retrieval**. 2022, [[pdf]](./INR-083.pdf) (**SCI Q1, IF=8.0, 129 pages + 42 pages references**)
-* [**ACL-23**] Chongyang Tao, Jiazhan Feng, Tao Shen, Chang Liu, **Juntao Li**, Xiubo Geng, Daxin Jiang. CORE: Cooperative Training of Retriever-Reranker for Effective Dialogue Response Selection. [[pdf]](https://aclanthology.org/2023.acl-long.174.pdf) **ACL 2023** (**CCF A**) 
-* [**TOIS-21**] **Juntao Li**, Chang Liu, Chongyang Tao, Zhangming Chan, DongyanZhao, Min Zhang, Rui Yan. Dialog History Matters! Personalized Response Selection in Multi-turn Retrieval-based Chatbots. **TOIS,2021** [[pdf]](https://arxiv.org/pdf/2103.09534.pdf) (**CCF A**)
-* [**ACL-19**] Lisong Qiu, **Juntao Li**, Wei Bi, Dongyan Zhao and Rui Yan. Are Training Samples Correlated? Learning to Generate Dialogue Responses with Multiple References. In **ACL'19**. Full paper. [[pdf]](https://www.aclweb.org/anthology/P19-1372.pdf) (**CCF A**)
-* [**AAAI-19**] **Juntao Li**, Lisong Qiu, Bo Tang, Dongmin Chen, Dongyan Zhao and Rui Yan. Insufficient Data Can Also Rock! Learning to Converse Using Smaller Data with Augmentation. In **AAAI'19**. Full paper. [[pdf]](https://wvvw.aaai.org/ojs/index.php/AAAI/article/view/4641) (**CCF A**)
-* [**EMNLP-19**] Zhangming Chan, **Juntao Li<sup>*</sup>**, Xiaopeng Yang, Xiuying Chen, Wenpeng Hu, Dongyan Zhao, and Rui Yan. Modeling Personalization in Continuous Space for Response Generation via Augmented Wasserstein Autoencoders. In **EMNLP'19**. Full paper. [[pdf]](https://www.aclweb.org/anthology/D19-1201.pdf) (**CCF B**)
+##### 2023
+*ASNN-FRR: A traffic-aware neural network for fastest route recommendation.(GeoInformatica)(**CCF B**)
+*Online meta-learning for POI recommendation.(GeoInformatica)(**CCF B**)
+*A Noise-Aware Method With Type Constraint Pattern for Neural Relation Extraction.(IEEE)(**CCF A**)
+*Auto-regressive extractive summarization with replacement.(World Wide Web)(**CCF B**)
+*Hybrid Enhancement-based prototypical networks for few-shot relation classification. (World Wide Web)(**CCF B**)
+*Competition or Cooperation? Exploring Unlabeled Data via Challenging Minimax Game for Semi-supervised Relation Extraction.(AAAI)(**CCF A**)
+*Towards Unifying Multi-Lingual and Cross-Lingual Summarization.(ACL)(**CCF A**)
+*A Joint Link-Retrieve Framework for Open Table-and-Text Question Answering.(DASFAA)(**CCF B**)
+*Region-Aware Graph Convolutional Network for Traffic Flow Forecasting.(DASFAA)(**CCF B**)
+*MMKGR: Multi-hop Multi-modal Knowledge Graph Reasoning.(ICDE)(**CCF A**)
+*Frequency Enhanced Hybrid Attention Network for Sequential Recommendation.(SIGIR)(**CCF A**)
+*Long-Document Cross-Lingual Summarization.(WSDM)(**CCF B**)
+
 
 
 ### 3. Grants
-* 第九届中国科协青年人才托举工程项目, PI
-* National Science Foundation of China, No. 62206194, PI
-* Natural Science Foundation of Jiangsu Province, No. BK20220488, PI
-* Alibaba Innovation Research Grant, Co-PI
-* Wudao Open Fund (BAAI), PI
+* 主持国自然面上、国自然青年等国家及省部级项目5项，参与国家级项目3项。
 
 ### 4. Experiences
-* Microsoft Research Aisa （2023/03-2023/06）, Supervised by [Nan Duan](https://scholar.google.com/citations?hl=zh-CN&user=Qaa6OxIAAAAJ) <br>
-* National University of Singapore （2019/09-2020/02）, Supervised by [Hwee Tou Ng](https://scholar.google.com/citations?user=FABZCeAAAAAJ&hl=zh-CN) <br>
-* Alibaba Damo Academy (2018/11-2019/06), Supervised by [Lidong Bing](https://scholar.google.com/citations?user=_oYzrzAAAAAJ&hl=zh-CN) and [Xiaozhong Liu](https://scholar.google.com/citations?user=1BUByMcAAAAJ&hl=zh-CN)<br>
-* Tencent AI Lab (2018/04-2018/06), Supervised by [Yan Song](https://scholar.google.com/citations?hl=zh-CN&user=MsRp7g0AAAAJ) and [Lidong Bing](https://scholar.google.com/citations?user=_oYzrzAAAAAJ&hl=zh-CN)<br>
-* Georgia Institute of Technology (2014/01-2014/05)
-
-### 5. Tutorials and Talks
-* **Juntao Li** and Rui Yan. Creative and Artistic Writing via Text Generation. In **AAAI'20**. Tutorial. [[Slide](https://lijuntaopku.github.io/AAAI2020-tutorial/AAAI20-tutorial.pdf)]. (**CCF A**)
-* **Juntao Li** and Rui Yan. Creative and Artistic Writing via Text Generation. In **IJCAI'19**. Tutorial. [[Slide](https://lijuntaopku.github.io/ijcai2019tutorial/ijcai-tutorial.pdf)]. (**CCF A**)
-* YSSNLP2022, Deep Learning for Dialogue System: Chit-Chat and Beyond, [[video]](https://event.baai.ac.cn/event/408)[[Slide]](./yssnlp22.pdf)
-
-### 6. Alumni
-* Chenchen Dai (Undergraduate student of Soochow University > Algorithm Engineer, Ant Group(蚂蚁金服，算法工程师))
-* Yi Deng (Undergraduate student of Soochow University > University College London (UCL), Master)
-
-### 7. Selected Awards
-* 
-* Startrack Visiting Scholars (铸星计划), Microsoft Research Aisa
-* Outstanding Graduates Awards (优秀毕业生), Peking University
-* AAAI Tutorial Grant<br>
-* National Scholarship (国家奖学金), Peking University<br>
-  
-
-
-### 8 Academic Services (Program Committee or Reviewer)
-* ACL Rolling (Area Chair/Action Editor)
-* 2023: ICLR, IJCAI (Senior PC), AACL (Website chair)
-* 2022: AAAI, IJCAI, NAACL, KDD, ICLR, EMNLP (Area Chair)
-* 2021: AAAI, IJCAI (Senior PC), NAACL-HLT, EACL, ACL (Area Chair), ICONIP (Tutorial, Session Chair)
-* 2020: ACL, AAAI, COLING, EMNLP, AACL, CCL
-* IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI/PAMI) 
-* IEEE Transactions on Neural Networks and Learning Systems (TNNLS),
-* Computational Linguistics (CL)<br>
-* Transactions on Knowledge and Data Engineering (TKDE)<br>
-
-
+*2009.09-2013.06 吉林大学，软件工程，工学学士；
+*2013.09-2016.06 吉林大学，计算机软件与理论，工学硕士；
+*2016.09-2019.06 吉林大学，计算机软件与理论，工学博士；
+*2017.10-2019.05 澳大利亚 昆士兰大学，联合培养博士；
+*2019.11-2020.11 澳大利亚 昆士兰大学，博士后研究员；
+*2020.12-2025.10 苏州大学 计算机学院 副教授；
+*2025.11- 中国人民大学 智慧治理学院 副教授
 
 
 
