@@ -9,7 +9,7 @@
 ### 1. Research Areas
 
 * Information extraction
-* Large-scale models
+* Large language models
 * Knowledge graphs
 * Data mining
 
