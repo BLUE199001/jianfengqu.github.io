@@ -22,7 +22,9 @@
 * Enhancing Long-and Short-Term Representations for Next POI Recommendations via Frequency and Hierarchical Contrastive Learning.(AAAI)(**CCF A**)
 * MRCLQR: A Framework for Logical Query Reasoning Based on Multi-information Relation Constraints.(CIKM)(**CCF B**)
 * Remember Past, Anticipate Future: Learning Continual Multimodal Misinformation Detectors.(ACM MM)(**CCF A**)
-#### 2024
+
+#### 2024 
+
 * Transfer-learning-based representation learning for trajectory similarity search.(GeoInformatica)(**CCF B**)
 * Towards Effective Author Name Disambiguation by Hybrid Attention.(JCST)(**CCF B**)
 * Evidence Reasoning and Curriculum Learning for Document-Level Relation Extraction.(IEEE)(**CCF A**)
@@ -39,6 +41,7 @@
 * A Coarse-to-Fine Framework for Entity-Relation Joint Extraction.(ICDE)(**CCF A**)
 
 #### 2023
+
 * ASNN-FRR: A traffic-aware neural network for fastest route recommendation.(GeoInformatica)(**CCF B**)
 * Online meta-learning for POI recommendation.(GeoInformatica)(**CCF B**)
 * A Noise-Aware Method With Type Constraint Pattern for Neural Relation Extraction.(IEEE)(**CCF A**)
@@ -51,6 +54,7 @@
 * MMKGR: Multi-hop Multi-modal Knowledge Graph Reasoning.(ICDE)(**CCF A**)
 * Frequency Enhanced Hybrid Attention Network for Sequential Recommendation.(SIGIR)(**CCF A**)
 * Long-Document Cross-Lingual Summarization.(WSDM)(**CCF B**)
+
 #### Earlier articles can be found at the dblp link https://dblp.org/pid/129/9411.html.
 
 
