@@ -18,7 +18,7 @@
 #### 2025 
 
 * Concept-aware embedding for logical query reasoning over knowledge graphs.(IPM)(**CCF B**) 
-* TMLKD: Few-shot Trajectory Metric Learning via Knowledge Distillation.(VLDB)(**CCF A)
+* TMLKD: Few-shot Trajectory Metric Learning via Knowledge Distillation.(VLDB)(**CCF A**)
 * Enhancing Long-and Short-Term Representations for Next POI Recommendations via Frequency and Hierarchical Contrastive Learning.(AAAI)(**CCF A**)
 * MRCLQR: A Framework for Logical Query Reasoning Based on Multi-information Relation Constraints.(CIKM)(**CCF B**)
 * Remember Past, Anticipate Future: Learning Continual Multimodal Misinformation Detectors.(ACM MM)(**CCF A**)
