@@ -6,24 +6,53 @@
     <meta name="viewport" content="width=device-width,maximum-scale=2">
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <title>{{ site.title }}</title>
+    <style>
+      .profile-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+      }
+      .profile-avatar {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 30px;
+        border: 2px solid #ddd;
+      }
+      .profile-info {
+        flex: 1;
+      }
+      .profile-info h1 { margin-top: 0; }
+      .profile-info p { margin: 5px 0; line-height: 1.5; }
+      @media (max-width: 600px) {
+        .profile-header { flex-direction: column; text-align: center; }
+        .profile-avatar { margin-right: 0; margin-bottom: 20px; }
+      }
+    </style>
   </head>
 
   <body>
     <header>
       <div class="inner">
-        <a href="{{ '/' | relative_url }}">
-          <h1>{{ site.title }}</h1>
-        </a>
-        <h2>{{ site.description }}</h2>
-        
-        {% if site.github.is_project_page %}
-          <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
-        {% endif %}
+        <h1>{{ site.title }}</h1>
       </div>
     </header>
 
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
+        <div class="profile-header">
+          <img src="{{ '/assets/avatar.jpg' | relative_url }}" alt="瞿剑峰" class="profile-avatar">
+          <div class="profile-info">
+            <h1>瞿剑峰 (Jianfeng Qu)</h1>
+            <p><strong>职位：</strong>副教授，硕士生导师</p>
+            <p><strong>单位：</strong>中国人民大学 智慧治理学院</p>
+            <p><strong>邮箱：</strong><a href="mailto:jfqu@ruc.edu.cn">jfqu@ruc.edu.cn</a></p>
+            <p><strong>地址：</strong>中国·江苏省苏州市（或填写具体的办公地址）</p>
+          </div>
+        </div>
+        <hr>
         {{ content }}
       </section>
     </div>

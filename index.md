@@ -1,3 +1,5 @@
+
+
 ### About Me
 
 瞿剑峰，男，副教授，硕士生导师，江苏省“双创博士”，苏州大学优秀青年学者。本硕博毕业于吉林大学，2017年至2019年澳大利亚昆士兰大学（U.S News 世界大学排名Top50）联合培养博士研究生，2019年至2020年在昆士兰大学从事博士后研究。目前研究方向为信息抽取、知识图谱、大模型、数据挖掘。在ACL, ICDE, TKDE, AAAI等高水平期刊会议上(CCF A/B类)发表60余篇。指导硕士生在国际顶级数据挖掘会议CIKM’22上获得Best Paper Honorable Mention（0.5%），担任各类CCF A顶级会议期刊（如ICML, ICLR, TOIS等）审稿人。
@@ -49,7 +51,7 @@ jfqu@ruc.edu.cn
 
 
 ### 3. Grants
-* 主持国自然面上、国自然青年等国家及省部级项目5项，参与国家级项目3项。
+* 主持国自然面上、国自然青年等国家及省部级项目5项，参与国家级项目3项。(He has presided over 5 national and provincial-level projects, including National Natural Science Foundation of China (NSFC) general and youth projects, and participated in 3 national-level projects.)
 
 ### 4. Experiences
 * 2009.09-2013.06 吉林大学，软件工程，工学学士；
@@ -60,6 +62,13 @@ jfqu@ruc.edu.cn
 * 2020.12-2025.10 苏州大学 计算机学院 副教授；
 * 2025.11- 中国人民大学 智慧治理学院 副教授
 
+### 5.Admissions Direction
+* 学术学位硕士生：智慧治理(Academic Master's Students: Smart Governance)
+* 专业学位硕士生：电子信息、人工智能与智慧治理(Professional Master's Degree Students: Electronic Information, Artificial Intelligence and Smart Governance)
+
+### 6.Part-time Jobs
+* 中文信息学会青工委委员(Member of the Youth Committee of the Chinese Information Processing Society)
+* CCF信息系统专委会委员(Member of the CCF Information Systems Committee)
 
 
 
