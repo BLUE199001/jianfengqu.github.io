@@ -2,7 +2,7 @@
 
 ### About Me
 
-瞿剑峰，男，副教授，硕士生导师，江苏省“双创博士”，苏州大学优秀青年学者。本硕博毕业于吉林大学，2017年至2019年澳大利亚昆士兰大学（U.S News 世界大学排名Top50）联合培养博士研究生，2019年至2020年在昆士兰大学从事博士后研究。在ACL, ICDE, TKDE, AAAI等高水平期刊会议上(CCF A/B类)发表60余篇。指导硕士生在国际顶级数据挖掘会议CIKM’22上获得Best Paper Honorable Mention（0.5%），担任各类CCF A顶级会议期刊（如ICML, ICLR, TOIS等）审稿人。
+瞿剑峰，中国人民大学智慧治理学院副教授，江苏省“双创博士”，中文信息学会青工委委员，CCF信息系统专委会委员。目前研究方向为信息抽取、知识图谱、大模型、数据挖掘。在ICLR, NeurIPS, ACL, ICDE, TKDE, AAAI等高水平期刊会议上(CCF A/B类)发表70余篇。获得国际顶级数据挖掘会议CIKM’22最佳论文提名奖，苏州市人工智能科学技术奖，数据要素X省级三等奖，担任各类CCF A顶级会议期刊（如ICML, ICLR, TOIS等）审稿人。主持国自然面上等国家及省部级项目5项，参与国家级项目2项。
 
 
 
@@ -15,28 +15,31 @@
 
 ### 2. Publications
 * Expert Heads: Robust Evidence Identification for Large Language Models.(ICLR 2026)(**CCF A**)
+* Towards Practical LLM Unlearning: Efficient, Modular, andRetain-Free.(WWW 2026)(**CCF A**)
 * Balancing Positive and Negative Classification Error Rates in Positive-Unlabeled Learning.(NeurIPS 2025)(**CCF A**)
 * TMLKD: Few-shot Trajectory Metric Learning via Knowledge Distillation.(VLDB 2025)(**CCF A**)
 * Enhancing Long-and Short-Term Representations for Next POI Recommendations via Frequency and Hierarchical Contrastive Learning.(AAAI 2025 oral)(**CCF A**)
 * Remember Past, Anticipate Future: Learning Continual Multimodal Misinformation Detectors.(ACM MM 2025)(**CCF A**)
-* Evidence Reasoning and Curriculum Learning for Document-Level Relation Extraction.(IEEE 2024)(**CCF A**)
 * Improving the Robustness of Knowledge-Grounded Dialogue via Contrastive Learning.(AAAI 2024)(**CCF A**)
 * Meta-optimized Structural and Semantic Contrastive Learning for Graph Collaborative Filtering.(ICDE 2024)(**CCF A**)
 * Meta-Optimized Joint Generative and Contrastive Learning for Sequential Recommendation.(ICDE 2024)(**CCF A**)
 * Multi-Modal Siamese Network for Few-Shot Knowledge Graph Completion.(ICDE 2024)(**CCF A**)
 * A Coarse-to-Fine Framework for Entity-Relation Joint Extraction.(ICDE 2024)(**CCF A**)
-* Dual-Supervised Contrastive Learning for Bundle Recommendation(IEEE 2024)(**CCF A**)
 * MusTQ: A Temporal Knowledge Graph Question Answering Dataset for Multi-Step Temporal Reasoning.(ACL 2024)(**CCF A**)
 * GeoAgent: To Empower LLMs using Geospatial Tools for Address Standardization.(ACL 2024)(**CCF A**)
+* Evidence Reasoning and Curriculum Learning for Document-Level Relation Extraction.(TKDE 2023)(**CCF A**)
 * A Noise-Aware Method With Type Constraint Pattern for Neural Relation Extraction.(IEEE 2023)(**CCF A**)
 * Competition or Cooperation? Exploring Unlabeled Data via Challenging Minimax Game for Semi-supervised Relation Extraction.(AAAI 2023)(**CCF A**)
 * Towards Unifying Multi-Lingual and Cross-Lingual Summarization.(ACL 2023)(**CCF A**)
 * MMKGR: Multi-hop Multi-modal Knowledge Graph Reasoning.(ICDE 2023)(**CCF A**)
 * Frequency Enhanced Hybrid Attention Network for Sequential Recommendation.(SIGIR 2023)(**CCF A**)
+
+
 * Ensemble Semi-supervised Entity Alignment via Cycle-Teaching.(AAAI 2022)(**CCF A**)
-* Improved sparse representation based on local preserving projection for the fault diagnosis of multivariable system.(SCIS 2021)(**CCF A**)
-* The input pattern problem on deep learning applied to signal analysis and processing to achieve fault diagnosis.(SCIS 2019)(**CCF A**)
-* MRCLQR: A Framework for Logical Query Reasoning Based on Multi-information Relation Constraints.(CIKM 2025)(**CCF B**)
+* A noise-aware method with type constraint pattern for neural relation extraction.(TKDE 2021)(**CCF A**)
+
+
+
 * Concept-aware embedding for logical query reasoning over knowledge graphs.(IPM 2025)(**CCF B**) 
 * MRCLQR: A Framework for Logical Query Reasoning Based on Multi-information Relation Constraints.(CIKM 2025)(**CCF B**)
 * Transfer-learning-based representation learning for trajectory similarity search.(GeoInformatica 2024)(**CCF B**)
@@ -64,10 +67,13 @@
 * Large-scale Entity Alignment via Knowledge Graph Merging, Partitioning and Embedding.(CIKM 2022)(**CCF B**)
 * An efficient and effective approach for multi-fact extraction from text corpus.(World Wide Web 2022)(**CCF B**)
 * A Survey on Cross-Lingual Summarization.(TACL 2022)(**CCF B**)
-
-
-
-
+* Can We Have Both Fish and Bear's Paw? Improving Performance, Reliability, and both of them for Relation Extraction under Label Shift.(CIKM 2022)(**CCF B**)
+* Sportssum2. 0: Generating high-quality sports news from live text commentary.(CIKM 2021)(**CCF B**)
+* Summarizing long-form document with rich discourse information.(CIKM 2021)(**CCF B**)
+* Temporal knowledge completion with context-aware embeddings.(World Wide Web 2021)(**CCF B**)
+* A fine-grained and noise-aware method for neural relation extraction.(CIKM 2019)(**CCF B**)
+* Discovering correlations between sparse features in distant supervision for relation extraction.(WSDM 2021)(**CCF B**)
+* Distant supervision for neural relation extraction integrated with word attention and property features.(Neural Networks 2018)(**CCF B**)
 
 
 

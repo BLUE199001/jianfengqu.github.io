@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jianfeng Qu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #003366;
+            --text-color: #333;
+            --bg-color: #ffffff;
+        }
+
+        body {
+            font-family: 'Roboto', 'Noto Sans SC', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            height: 60px;
+            background: var(--primary-color);
+            color: white;
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .inner-header {
+            max-width: 1100px;
+            margin: 0 auto;
+            width: 100%;
+            padding: 0 20px;
+        }
+
+        .inner-header h1 { font-size: 1.5rem; margin: 0; }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px 40px;
+        }
+
+        .page-layout {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            gap: 50px;
+        }
+
+        .left-panel {
+            flex: 0 0 220px;
+            width: 220px;
+            position: sticky;
+            top: 20px;
+        }
+
+        .right-panel {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .profile-pic {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            display: block;
+            margin-bottom: 16px;
+        }
+
+        /* 照片占位符（没有真实图片时显示） */
+        .profile-pic-placeholder {
+            width: 100%;
+            aspect-ratio: 1;
+            border-radius: 8px;
+            background: #e8eef5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #888;
+            font-size: 0.85rem;
+            margin-bottom: 16px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .profile-info h2 {
+            margin: 0 0 10px 0;
+            color: var(--primary-color);
+            font-size: 1.2rem;
+        }
+
+        .profile-info p {
+            margin: 5px 0;
+            font-size: 0.92rem;
+            color: #444;
+        }
+
+        .profile-info a { color: var(--primary-color); }
+
+        .main-content h3 {
+            border-left: 5px solid var(--primary-color);
+            padding-left: 15px;
+            margin: 30px 0 20px;
+            color: var(--primary-color);
+        }
+
+        .main-content ul { padding-left: 20px; }
+        .main-content li { margin-bottom: 6px; }
+
+        @media (max-width: 768px) {
+            .page-layout {
+                flex-direction: column;
+                align-items: center;
+            }
+            .left-panel {
+                flex: 0 0 auto;
+                width: 200px;
+                position: static;
+                text-align: center;
+            }
+            .right-panel { width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="inner-header">
+        <h1>Jianfeng Qu</h1>
+    </div>
+</header>
+
+<div class="container">
+    <div class="page-layout">
+
+        <!-- ===== 左栏：照片 + 个人信息 ===== -->
+        <!-- 修改方法：把下面 img 的 src 换成你的照片路径，例如 src="avatar.png" -->
+        <aside class="left-panel">
+            <img src="assets/avatar.png" alt="Jianfeng Qu" class="profile-pic">
+
+            <div class="profile-info">
+                <!-- ===== 修改个人信息 ===== -->
+                <h2>瞿剑峰 (Jianfeng Qu)</h2>
+                <p><strong>副教授 / 硕士生导师</strong></p>
+                <p>中国人民大学 智慧治理学院</p>
+                <p>Email: <a href="mailto:jfqu@ruc.edu.cn">jfqu@ruc.edu.cn</a></p>
+            </div>
+        </aside>
+
+        <!-- ===== 右栏：主要内容（对应 index.md） ===== -->
+        <main class="right-panel main-content">
+
+            <!-- ===== 修改下方内容即可 ===== -->
+
+            <h3>About Me</h3>
+            <p>
+                瞿剑峰，男，副教授，硕士生导师，江苏省"双创博士"，苏州大学优秀青年学者。本硕博毕业于吉林大学，2017年至2019年澳大利亚昆士兰大学（U.S News 世界大学排名Top50）联合培养博士研究生，2019年至2020年在昆士兰大学从事博士后研究。在ACL, ICDE, TKDE, AAAI等高水平期刊会议上(CCF A/B类)发表60余篇。指导硕士生在国际顶级数据挖掘会议CIKM'22上获得Best Paper Honorable Mention（0.5%），担任各类CCF A顶级会议期刊（如ICML, ICLR, TOIS等）审稿人。
+            </p>
+
+            <h3>1. Research Areas</h3>
+            <ul>
+                <li>Information extraction</li>
+                <li>Large language models</li>
+                <li>Knowledge graphs</li>
+                <li>Data mining</li>
+            </ul>
+
+            <h3>2. Publications</h3>
+            <ul>
+                <li>Expert Heads: Robust Evidence Identification for Large Language Models. (ICLR 2026) <strong>(CCF A)</strong></li>
+                <li>Balancing Positive and Negative Classification Error Rates in Positive-Unlabeled Learning. (NeurIPS 2025) <strong>(CCF A)</strong></li>
+                <li>TMLKD: Few-shot Trajectory Metric Learning via Knowledge Distillation. (VLDB 2025) <strong>(CCF A)</strong></li>
+                <li>Enhancing Long-and Short-Term Representations for Next POI Recommendations via Frequency and Hierarchical Contrastive Learning. (AAAI 2025 oral) <strong>(CCF A)</strong></li>
+                <li>Remember Past, Anticipate Future: Learning Continual Multimodal Misinformation Detectors. (ACM MM 2025) <strong>(CCF A)</strong></li>
+                <li>Evidence Reasoning and Curriculum Learning for Document-Level Relation Extraction. (IEEE 2024) <strong>(CCF A)</strong></li>
+                <li>Improving the Robustness of Knowledge-Grounded Dialogue via Contrastive Learning. (AAAI 2024) <strong>(CCF A)</strong></li>
+                <li>Meta-optimized Structural and Semantic Contrastive Learning for Graph Collaborative Filtering. (ICDE 2024) <strong>(CCF A)</strong></li>
+                <li>Meta-Optimized Joint Generative and Contrastive Learning for Sequential Recommendation. (ICDE 2024) <strong>(CCF A)</strong></li>
+                <li>Multi-Modal Siamese Network for Few-Shot Knowledge Graph Completion. (ICDE 2024) <strong>(CCF A)</strong></li>
+                <li>A Coarse-to-Fine Framework for Entity-Relation Joint Extraction. (ICDE 2024) <strong>(CCF A)</strong></li>
+                <li>Dual-Supervised Contrastive Learning for Bundle Recommendation. (IEEE 2024) <strong>(CCF A)</strong></li>
+                <li>MusTQ: A Temporal Knowledge Graph Question Answering Dataset for Multi-Step Temporal Reasoning. (ACL 2024) <strong>(CCF A)</strong></li>
+                <li>GeoAgent: To Empower LLMs using Geospatial Tools for Address Standardization. (ACL 2024) <strong>(CCF A)</strong></li>
+                <li>A Noise-Aware Method With Type Constraint Pattern for Neural Relation Extraction. (IEEE 2023) <strong>(CCF A)</strong></li>
+                <li>Competition or Cooperation? Exploring Unlabeled Data via Challenging Minimax Game for Semi-supervised Relation Extraction. (AAAI 2023) <strong>(CCF A)</strong></li>
+                <li>Towards Unifying Multi-Lingual and Cross-Lingual Summarization. (ACL 2023) <strong>(CCF A)</strong></li>
+                <li>MMKGR: Multi-hop Multi-modal Knowledge Graph Reasoning. (ICDE 2023) <strong>(CCF A)</strong></li>
+                <li>Frequency Enhanced Hybrid Attention Network for Sequential Recommendation. (SIGIR 2023) <strong>(CCF A)</strong></li>
+                <li>Ensemble Semi-supervised Entity Alignment via Cycle-Teaching. (AAAI 2022) <strong>(CCF A)</strong></li>
+                <li>Improved sparse representation based on local preserving projection for the fault diagnosis of multivariable system. (SCIS 2021) <strong>(CCF A)</strong></li>
+                <li>The input pattern problem on deep learning applied to signal analysis and processing to achieve fault diagnosis. (SCIS 2019) <strong>(CCF A)</strong></li>
+                <li>MRCLQR: A Framework for Logical Query Reasoning Based on Multi-information Relation Constraints. (CIKM 2025) <strong>(CCF B)</strong></li>
+                <li>Concept-aware embedding for logical query reasoning over knowledge graphs. (IPM 2025) <strong>(CCF B)</strong></li>
+                <li>Transfer-learning-based representation learning for trajectory similarity search. (GeoInformatica 2024) <strong>(CCF B)</strong></li>
+                <li>Towards Effective Author Name Disambiguation by Hybrid Attention. (JCST 2024) <strong>(CCF B)</strong></li>
+                <li>PopGR: Popularity reweighting for debiasing in group recommendation. (World Wide Web 2024) <strong>(CCF B)</strong></li>
+                <li>CLR2G: Cross modal Contrastive Learning on Radiology Report Generation. (CIKM 2024) <strong>(CCF B)</strong></li>
+                <li>Contrasting Transformer and Hypergraph Network for Cooperative Sequential Recommendation. (DASFAA 2024) <strong>(CCF B)</strong></li>
+                <li>Efficient and Secure Skyline Query Over Horizontal Data Federation. (DASFAA 2024) <strong>(CCF B)</strong></li>
+                <li>Beyond SweepLine: Efficient MaxRS Queries over Inaccurate Location Data. (DASFAA 2024) <strong>(CCF B)</strong></li>
+                <li>A Hierarchy-aware Entity Alignment Method for Educational Knowledge Graphs. (DASFAA 2024) <strong>(CCF B)</strong></li>
+                <li>ASNN-FRR: A traffic-aware neural network for fastest route recommendation. (GeoInformatica 2023) <strong>(CCF B)</strong></li>
+                <li>Online meta-learning for POI recommendation. (GeoInformatica 2023) <strong>(CCF B)</strong></li>
+                <li>Auto-regressive extractive summarization with replacement. (World Wide Web 2023) <strong>(CCF B)</strong></li>
+                <li>Hybrid Enhancement-based prototypical networks for few-shot relation classification. (World Wide Web 2023) <strong>(CCF B)</strong></li>
+                <li>A Joint Link-Retrieve Framework for Open Table-and-Text Question Answering. (DASFAA 2023) <strong>(CCF B)</strong></li>
+                <li>Region-Aware Graph Convolutional Network for Traffic Flow Forecasting. (DASFAA 2023) <strong>(CCF B)</strong></li>
+                <li>Long-Document Cross-Lingual Summarization. (WSDM 2023) <strong>(CCF B)</strong></li>
+                <li>Knowledge Enhanced Sports Game Summarization. (WSDM 2022) <strong>(CCF B)</strong></li>
+                <li>RT-KGD: Relation Transition Aware Knowledge-Grounded Dialogue Generation. (ISWC 2022) <strong>(CCF B)</strong></li>
+                <li>ClidSum: A Benchmark Dataset for Cross-Lingual Dialogue Summarization. (EMNLP 2022) <strong>(CCF B)</strong></li>
+                <li>Aligning Internal Regularity and External Influence of Multi-granularity for Temporal Knowledge Graph Embedding. (DASFAA 2022) <strong>(CCF B)</strong></li>
+                <li>TRHyTE: Temporal Knowledge Graph Embedding Based on Temporal-Relational Hyperplanes. (DASFAA 2022) <strong>(CCF B)</strong></li>
+                <li>Incorporating Commonsense Knowledge into Story Ending Generation via Heterogeneous Graph Networks. (DASFAA 2022) <strong>(CCF B)</strong></li>
+                <li>Evidence-aware Document-level Relation Extraction. (CIKM 2022) <strong>(CCF B)</strong></li>
+                <li>Large-scale Entity Alignment via Knowledge Graph Merging, Partitioning and Embedding. (CIKM 2022) <strong>(CCF B)</strong></li>
+                <li>An efficient and effective approach for multi-fact extraction from text corpus. (World Wide Web 2022) <strong>(CCF B)</strong></li>
+                <li>A Survey on Cross-Lingual Summarization. (TACL 2022) <strong>(CCF B)</strong></li>
+            </ul>
+
+        </main>
+    </div>
+</div>
+
+<footer style="text-align: center; padding: 40px 0; color: #999; font-size: 0.8rem;">
+    &copy; 2025 Jianfeng Qu.
+</footer>
+
+</body>
+</html>
