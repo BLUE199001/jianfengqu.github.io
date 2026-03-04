@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary-color: #003366; /* 人大蓝 */
+            --primary-color: #003366;
             --text-color: #333;
             --bg-color: #ffffff;
         }
@@ -32,7 +32,7 @@
         }
 
         .inner-header {
-            max-width: 1000px;
+            max-width: 1100px;
             margin: 0 auto;
             width: 100%;
             padding: 0 20px;
@@ -40,63 +40,98 @@
 
         .inner-header h1 { font-size: 1.5rem; margin: 0; }
 
-        /* 核心：左右并排容器 */
+        /* 外层容器 */
         .container {
-            max-width: 1000px;
+            max-width: 1100px;
             margin: 0 auto;
-            padding: 0 20px;
+            padding: 0 20px 40px;
         }
 
-        .profile-section {
-            display: flex !important;   /* 强制开启 flex */
-            flex-direction: row !important; /* 强制横向排列 */
+        /* =============================
+           核心：左右两栏并排布局
+           左栏：照片 + 个人信息（固定宽度）
+           右栏：Markdown 正文（自适应）
+           ============================= */
+        .page-layout {
+            display: flex;
+            flex-direction: row;
             align-items: flex-start;
-            gap: 40px;                  /* 照片和文字的间距 */
-            margin-bottom: 30px;
+            gap: 50px;
         }
 
-        /* 左侧：照片固定宽度 */
-        .profile-pic-container {
-            flex: 0 0 220px !important; /* 关键：固定220px，不放大不缩小 */
+        /* 左栏：固定宽度 */
+        .left-panel {
+            flex: 0 0 220px;
             width: 220px;
+            position: sticky;   /* 可选：滚动时左栏固定 */
+            top: 20px;
         }
 
+        /* 右栏：占据剩余空间 */
+        .right-panel {
+            flex: 1;
+            min-width: 0;
+        }
+
+        /* 照片 */
         .profile-pic {
             width: 100%;
             height: auto;
             border-radius: 8px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
             display: block;
+            margin-bottom: 16px;
         }
 
-        /* 右侧：文字信息 */
-        .profile-info {
-            flex: 1; /* 占据剩余空间 */
-            min-width: 0; /* 防止内部长文本撑破布局 */
+        /* 个人信息文字 */
+        .profile-info h2 {
+            margin: 0 0 10px 0;
+            color: var(--primary-color);
+            font-size: 1.2rem;
         }
 
-        .profile-info h2 { margin: 0 0 10px 0; color: var(--primary-color); }
-        .profile-info p { margin: 5px 0; }
+        .profile-info p {
+            margin: 5px 0;
+            font-size: 0.92rem;
+            color: #444;
+        }
 
-        /* 正文 Markdown 样式 */
-        h3 { 
-            border-left: 5px solid var(--primary-color); 
-            padding-left: 15px; 
+        .profile-info a {
+            color: var(--primary-color);
+        }
+
+        /* 右侧正文 Markdown 样式 */
+        .main-content h3 {
+            border-left: 5px solid var(--primary-color);
+            padding-left: 15px;
             margin: 30px 0 20px;
             color: var(--primary-color);
         }
 
-        /* 响应式：仅在手机端变为上下结构 */
+        .main-content ul {
+            padding-left: 20px;
+        }
+
+        .main-content li {
+            margin-bottom: 6px;
+        }
+
+        /* 响应式：手机端变为上下结构 */
         @media (max-width: 768px) {
-            .profile-section {
-                flex-direction: column !important;
+            .page-layout {
+                flex-direction: column;
                 align-items: center;
+            }
+
+            .left-panel {
+                flex: 0 0 auto;
+                width: 200px;
+                position: static;
                 text-align: center;
             }
-            .profile-pic-container {
-                flex: 0 0 auto !important;
-                width: 200px;
-                margin-bottom: 20px;
+
+            .right-panel {
+                width: 100%;
             }
         }
     </style>
@@ -110,24 +145,25 @@
 </header>
 
 <div class="container">
-    <section class="profile-section">
-        <div class="profile-pic-container">
+    <div class="page-layout">
+
+        <!-- 左栏：照片 + 个人信息 -->
+        <aside class="left-panel">
             <img src="{{ '/assets/avatar.png' | relative_url }}" alt="Jianfeng Qu" class="profile-pic">
-        </div>
-        
-        <div class="profile-info">
-            <h2>瞿剑峰 (Jianfeng Qu)</h2>
-            <p><strong>副教授 / 硕士生导师</strong></p>
-            <p>中国人民大学 智慧治理学院</p>
-            <p>Email: <a href="mailto:jfqu@ruc.edu.cn">jfqu@ruc.edu.cn</a></p>
-        </div>
-    </section>
+            <div class="profile-info">
+                <h2>瞿剑峰 (Jianfeng Qu)</h2>
+                <p><strong>副教授 / 硕士生导师</strong></p>
+                <p>中国人民大学 智慧治理学院</p>
+                <p>Email: <a href="mailto:jfqu@ruc.edu.cn">jfqu@ruc.edu.cn</a></p>
+            </div>
+        </aside>
 
-    <hr style="border: 0; border-top: 1px solid #eee; margin: 20px 0;">
+        <!-- 右栏：Markdown 正文内容 -->
+        <main class="right-panel main-content">
+            {{ content }}
+        </main>
 
-    <main class="main-content">
-        {{ content }}
-    </main>
+    </div>
 </div>
 
 <footer style="text-align: center; padding: 40px 0; color: #999; font-size: 0.8rem;">
